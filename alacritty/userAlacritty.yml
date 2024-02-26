@@ -1,0 +1,25 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+# Window Customizations
+window:
+  dimensions:
+    columns: 110
+    lines: 34 
+  padding:
+    x: 18 
+    y: 18
+
+  decorations: none 
+
+  opacity: 0.9 
+  history: 10000
+  multiplier: 3
+
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+decorations_theme_variant: Light
+
+key_bindings:
+  - { key: N,        mods: Command|Shift,    action: SpawnNewInstance    }

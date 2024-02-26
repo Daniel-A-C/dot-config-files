@@ -1,0 +1,14 @@
+# Font configuration
+font:
+  normal:
+    family: Monaco 
+    style: Regular
+  bold:
+    family: Monaco
+    style: Bold
+  italic:
+    family: Monaco 
+    style: Italic
+  size: 20.0
+
+  use_thin_strokes: true

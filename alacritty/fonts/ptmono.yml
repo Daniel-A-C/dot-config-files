@@ -1,0 +1,14 @@
+# Font configuration
+font:
+  normal:
+    family: PT Mono 
+    style: Regular
+  bold:
+    family: PT Mono
+    style: Bold
+  italic:
+    family: PT Mono 
+    style: Italic
+  size: 20.0
+
+  use_thin_strokes: true

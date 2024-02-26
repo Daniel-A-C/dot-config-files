@@ -1,0 +1,14 @@
+# Font configuration
+font:
+  normal:
+    family: PCMyungjo 
+    style: Regular
+  bold:
+    family: PCMyungjo
+    style: Bold
+  italic:
+    family: PCMyungjo
+    style: Italic
+  size: 20.0
+
+  use_thin_strokes: true
