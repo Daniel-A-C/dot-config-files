@@ -133,13 +133,12 @@ alias h="source hummingbird"
 alias n="nvim"
 alias p="python3"
 alias bible='vim +/"$(cat ~/documents/books/bibles/bsb.txt | fzf)" ~/documents/books/bibles/bsb.txt'
-alias g="open ~/Documents/other/Galatians.pdf"
-
+alias g="go run *.go"
+alias lz="lazygit"
 
 
 Neofetch
 ll
-
 
 
 
