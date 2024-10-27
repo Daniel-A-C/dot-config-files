@@ -1,0 +1,6 @@
+[virt-viewer]
+share-clipboard=true
+ask-quit=true
+#desktop-dac458
+[8db48b4f-ca45-a946-efbf-94124ef145aa]
+monitor-mapping=1:1;
