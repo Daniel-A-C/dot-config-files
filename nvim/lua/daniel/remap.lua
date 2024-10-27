@@ -4,7 +4,8 @@ vim.keymap.set("n", "<leader>;v", vim.cmd.Ex)
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
-vim.keymap.set("n", "J", "mzJ`z")
+vim.keymap.set("n", "J", "j zz")
+vim.keymap.set("n", "K", "2k zz")
 vim.keymap.set("n", "<C-j>", "10j zz")
 vim.keymap.set("n", "<C-k>", "10k zz")
 
