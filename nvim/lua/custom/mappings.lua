@@ -14,7 +14,7 @@ function M.setup()
     -- Quit Neovim with a non-zero exit code.
     -- This is important if the wrapper script also checks the exit code,
     -- but the flag file is the primary mechanism here.
-    vim.cmd 'cq'
+    vim.cmd 'wq'
   end, { noremap = true, silent = false, desc = 'Flag quit and launch Hummingbird via wrapper' })
   -- Set silent = false temporarily for debugging if needed to see the print message easily
 end
